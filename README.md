@@ -10,6 +10,10 @@
 ## 📌 系統架構
 ![系統架構圖](pic/流程圖v5.jpg)
 
+<p align="center">
+  <img src="pic/流程圖v5.jpg" alt="系統流程圖" width="70%">
+</p>
+
 
 ## 🔧 專案目錄結構
 
