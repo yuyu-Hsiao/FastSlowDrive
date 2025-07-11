@@ -1,7 +1,7 @@
 # FastSlowDrive
 
 本專案是一套整合多種模組的智慧自駕系統，具備以下功能：
-- 車輛與行人偵測與追蹤（YOLOv8 + ByteTrack）
+- 車輛與行人偵測與追蹤（YOLOv10 + ByteTrack）
 - 車道線偵測與偏移控制（UFLD + PID 控制）
 - 危險行為辨識（Social LSTM 軌跡分析）
 - 語意駕駛建議生成（OpenAI GPT 模型）
