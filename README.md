@@ -35,7 +35,7 @@
 - 其他套件詳見 `requirements.txt`（建議建立虛擬環境）
 
 ## 🚀 執行方式
-1. 啟動 CARLA 模擬器（建議 Town03 地圖）  
-2. 啟動車流與行人腳本（例如：`generate_traffic.py`）  
+1. 啟動 CARLA 模擬器
+2. 啟動車流與行人腳本  
 3. 執行主程式：
 
