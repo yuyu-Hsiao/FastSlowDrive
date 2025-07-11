@@ -13,6 +13,12 @@
 </p>
 
 
+## 📌 運作流程
+<p align="center">
+  <img src="pic/flow_chart_v2.jpg" alt="系統流程圖" width="75%">
+</p>
+
+
 ## 🔧 專案目錄結構
 
 | 檔案 / 資料夾        | 功能說明 |
@@ -34,7 +40,7 @@
 - [UFLD 車道線偵測](https://github.com/cfzd/Ultra-Fast-Lane-Detection)
 - OpenAI API 金鑰
 - [CARLA Simulator](https://carla.org/) 版本 0.9.13
-- 其他套件詳見 `requirements.txt`（建議建立虛擬環境）
+- 其他套件詳見 `requirements.txt`
 
 ## 🚀 執行方式
 1. 啟動 CARLA 模擬器
