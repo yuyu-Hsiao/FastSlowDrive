@@ -40,8 +40,8 @@ from autopilot_fun.integration import (
 )
 
 
-# 新增: 導入Social-LSTM分類器
-from TrajectoryClassification.social_lstm_trainer3 import SocialLSTMClassifier
+# 導入Social-LSTM分類器
+from TrajectoryClassification.social_lstm_trainer import SocialLSTMClassifier
 
 import os.path as osp
 import time
