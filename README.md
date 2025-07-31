@@ -62,13 +62,14 @@
 | 檔案 / 資料夾        | 功能說明 |
 |---------------------|----------|
 | `main.py`        | 系統主程式：整合感知、追蹤、控制、LLM 觸發 |
-| `perception.py`     | 感知模組：多物件追蹤 + 車道線偵測 |
-| `utils.py`          | 輔助函式：視窗截圖、危險區域推估、計時器等 |
-| `visualization.py`  | 畫面渲染：軌跡繪製、車道線、風險區域顯示 |
-| `control.py`        | 控制模組：PID 控制器、避障邏輯、車道維持 |
-| `integration.py`    | GPT 模型整合：提示詞設計、API 呼叫與回應處理 |
-| `social_lstm_trainer3.py` | 行為分類：Social-LSTM 模型進行軌跡分析 |
 | `gui_app.py`        | 互動式 UI（選用） |
+| `autopilot_fun/perception.py`     | 感知模組：多物件追蹤 + 車道線偵測 |
+| `autopilot_fun/utils.py`          | 輔助函式：視窗截圖、危險區域推估、計時器等 |
+| `autopilot_fun/visualization.py`  | 畫面渲染：軌跡繪製、車道線、風險區域顯示 |
+| `autopilot_fun/control.py`        | 控制模組：PID 控制器、避障邏輯、車道維持 |
+| `autopilot_fun/integration.py`    | GPT 模型整合：提示詞設計、API 呼叫與回應處理 |
+| `autopilot_fun/social_lstm_trainer3.py` | 行為分類：Social-LSTM 模型進行軌跡分析 |
+
 
 
 
