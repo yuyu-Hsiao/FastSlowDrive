@@ -68,7 +68,8 @@
 | `autopilot_fun/visualization.py`  | 畫面渲染：軌跡繪製、車道線、風險區域顯示 |
 | `autopilot_fun/control.py`        | 控制模組：PID 控制器、避障邏輯、車道維持 |
 | `autopilot_fun/integration.py`    | GPT 模型整合：提示詞設計、API 呼叫與回應處理 |
-| `autopilot_fun/social_lstm_trainer3.py` | 行為分類：Social-LSTM 模型進行軌跡分析 |
+| `TrajectoryClassification/social_lstm_trainer.py` | 行為分類：Social-LSTM 模型進行軌跡分析 |
+| `UFLD` | 車到線偵測 |
 
 
 
@@ -76,7 +77,7 @@
 
 - Python >= 3.8
 - [YOLOv10](https://github.com/ultralytics/ultralytics)
-- [UFLD 車道線偵測](https://github.com/cfzd/Ultra-Fast-Lane-Detection)
+- [UFLD_v2 車道線偵測](https://github.com/cfzd/Ultra-Fast-Lane-Detection-v2)
 - OpenAI API 金鑰
 - [CARLA Simulator](https://carla.org/) 版本 0.9.13
 - 其他套件詳見 `requirements.txt`
