@@ -3,8 +3,8 @@
 本專案是一套整合多種模組的智慧自駕系統，具備以下功能：
 - 車輛與行人偵測與追蹤（YOLOv10 + ByteTrack）
 - 車道線偵測與偏移控制（UFLD_v2 + PID 控制）
-- 危險行為辨識（Social LSTM 軌跡分析）
-- 語意駕駛建議生成（OpenAI GPT 模型）
+- 危險行為辨識（Social LSTM 軌跡分析 + ROI預警區域）
+- 語意駕駛建議生成（OpenAI GPT4o）
 - 支援 CARLA 模擬平台進行場景測試
 
 ## 📌 系統架構
@@ -69,7 +69,7 @@
 | `autopilot_fun/control.py`        | 控制模組：PID 控制器、避障邏輯、車道維持 |
 | `autopilot_fun/integration.py`    | GPT 模型整合：提示詞設計、API 呼叫與回應處理 |
 | `TrajectoryClassification/social_lstm_trainer.py` | 行為分類：Social-LSTM 模型進行軌跡分析 |
-| `UFLD` | 車到線偵測 |
+| `UFLD` | 車道線偵測 |
 
 
 
@@ -84,6 +84,5 @@
 
 ## 🚀 執行方式
 1. 啟動 CARLA 模擬器
-2. 啟動車流與行人腳本  
-3. 執行主程式：
+2. 執行主程式：
 
