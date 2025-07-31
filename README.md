@@ -83,6 +83,6 @@
 - 其他套件詳見 `requirements.txt`
 
 ## 🚀 執行方式
-1. 啟動 CARLA 模擬器:[ CARLA README ](carla/README.md)
+1. 啟動 CARLA 模擬器: [ CARLA README ](carla/README.md)
 2. 執行主程式：
 
