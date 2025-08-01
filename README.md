@@ -86,3 +86,11 @@
 1. 啟動 CARLA 模擬器: [ CARLA README ](CARLA/README.md)
 2. 執行主程式：
 
+- 無 GUI 版本執行
+
+如果您只需要在命令行執行主程式，並且不需要圖形界面，請使用以下命令
+
+```bash
+python main.py --config UFLD/configs/culane_res18.py --test_model UFLD/weights/culane_res18.pth --save_result --window_name "pygame"
+```
+
