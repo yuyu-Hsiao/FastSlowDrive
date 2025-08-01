@@ -83,10 +83,17 @@
 - 其他套件詳見 `requirements.txt`
 
 ## 🚀 執行方式
-1. 啟動 CARLA 模擬器: [ CARLA README ](CARLA/README.md)
-2. 執行主程式：
+### 1. 啟動 CARLA 模擬器: 
+詳細安裝與設定請參考：[CARLA README](CARLA/README.md)
 
-### 無 GUI 版本執行
+### 2. 執行主程式：
+
+#### 🖥️ GUI 互動模式執行
+```bash
+python gui_app.py
+```
+
+#### ⚡ 命令列模式執行
 ```bash
 python main.py --config UFLD/configs/culane_res18.py --test_model UFLD/weights/culane_res18.pth --save_result --window_name "pygame"
 ```
