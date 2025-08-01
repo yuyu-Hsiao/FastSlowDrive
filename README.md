@@ -86,7 +86,7 @@
 1. 啟動 CARLA 模擬器: [ CARLA README ](CARLA/README.md)
 2. 執行主程式：
 
-- 無 GUI 版本執行
+### 無 GUI 版本執行
 ```bash
 python main.py --config UFLD/configs/culane_res18.py --test_model UFLD/weights/culane_res18.pth --save_result --window_name "pygame"
 ```
