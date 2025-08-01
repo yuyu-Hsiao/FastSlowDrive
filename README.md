@@ -75,7 +75,7 @@
 
 
 
-- Python >= 3.8
+- Python >= 3.7
 - [YOLOv10](https://github.com/ultralytics/ultralytics)
 - [UFLD_v2 車道線偵測](https://github.com/cfzd/Ultra-Fast-Lane-Detection-v2)
 - OpenAI API 金鑰
@@ -114,3 +114,4 @@ python main.py --config UFLD/configs/culane_res18.py --test_model UFLD/weights/c
     </td>
   </tr>
 </table>
+
