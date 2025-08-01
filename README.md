@@ -103,12 +103,12 @@ python main.py --config UFLD/configs/culane_res18.py --test_model UFLD/weights/c
 <table>
   <tr>
     <td align="center">
-      <img src="pic/system1.gif" alt="system1" width="400">
+      <img src="pic/system1.gif" alt="system1" width="300">
       <br>
       <b>場景1：正常駕駛模式</b>
     </td>
     <td align="center">
-      <img src="path/to/your/second.gif" alt="system1+2" width="400">
+      <img src="pic/system1+2.gif" alt="system1+2" width="300">
       <br>
       <b>場景2：危險行為檢測</b>
     </td>
